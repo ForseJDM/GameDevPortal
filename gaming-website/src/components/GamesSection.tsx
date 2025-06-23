@@ -55,6 +55,23 @@ const GamesSection = () => {
               </div>
             </div>
           </Link>
+
+          {/* In Development Card */}
+          <div className="group block overflow-hidden rounded-lg border border-dashed border-gray-600 bg-gray-800/50">
+            <div className="relative flex h-[250px] w-full items-center justify-center">
+              <div className="text-center">
+                <h3 className="text-xl font-bold text-gray-500">Скоро...</h3>
+                <p className="mt-2 text-gray-600">Новая игра в разработке!</p>
+              </div>
+            </div>
+            <div className="p-4">
+                <h3 className="text-xl font-bold text-gray-600">В разработке</h3>
+                <p className="mt-2 text-gray-500">
+                  Мы уже работаем над следующим проектом.
+                </p>
+              </div>
+          </div>
+
         </div>
       </div>
     </section>
