@@ -14,5 +14,8 @@
     "socket.io": "^4.8.1",
     "uuid": "^11.1.0",
     "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "eslint-plugin-jsx-a11y": "^6.10.2"
   }
 }
