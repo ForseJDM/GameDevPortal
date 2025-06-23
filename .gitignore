@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+/gaming-website/node_modules/
+
+# Next.js
+/gaming-website/.next/
+/gaming-website/out/
+
+# Production
+/gaming-website/build/
+
+# VSCode
+.vscode/
+
+# System
+.DS_Store
+*.pem
+
+# Turbo
+.turbo
+
+# Env
+.env*
+!/.env.example
+
+# Other
+.pnp
+.pnp.js
+gaming-website/.env*.local 
