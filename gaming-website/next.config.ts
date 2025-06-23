@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const cspHeader = `
     default-src 'self';
     script-src 'self' ${
-      process.env.NODE_ENV === "development" ? `'unsafe-eval'` : ""
+      process.env.NODE_ENV === "development" ? `'unsafe-inline' 'unsafe-eval'` : ""
     };
     style-src 'self' 'unsafe-inline';
     img-src 'self' data:;
